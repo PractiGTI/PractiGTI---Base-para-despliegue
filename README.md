@@ -1,4 +1,4 @@
-# PractiGTI-Base_para_despliegue
+# PractiGTI-Código_para_despliegue
 
 ### Hi there 👋
 ### This is a web application development repository for the thesis project, which is called PractiGTI.
