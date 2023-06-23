@@ -1,0 +1,135 @@
+.tableGTI-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  background: rgb(249, 246, 237);
+}
+
+.submit-button-table1,
+.submit-button-table2,
+.submit-button-table3,
+.submit-button-table4 {
+  border-radius: 15px;
+  outline: none;
+  color: white;
+  font-size: 14px;
+  font-weight: lighter;
+  width: 190px;
+ /*  background: #66b2ff; */
+  border: 1px solid #d0d0d0;
+  color: white;
+  font-size: 25px;
+}
+
+
+
+.submit-button-table1,
+.submit-button-table2 {
+  height: 67px;
+}
+
+.submit-button-table3,
+.submit-button-table4 {
+  height: 107px;
+}
+
+.submit-button-table1:hover,
+.submit-button-table2:hover,
+.submit-button-table3:hover,
+.submit-button-table4:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 1025px){
+  .button-tableGTI-container {
+    position: relative;
+    width: 800px;
+    height: 400px;
+    top: 50px;  
+  }
+
+  .submit-button-tableGTI-container1 {
+    position: absolute;
+    left: 0;
+    top: 150px;
+  }
+  
+  .submit-button-tableGTI-container2 {
+    position: absolute;
+    right: 300px;
+    top: 0px;
+    z-index: 999;
+  }
+  
+  .submit-button-tableGTI-container3 {
+    position: absolute;
+    bottom: 0;
+    left: 300px;
+  }
+  
+  .submit-button-tableGTI-container4 {
+    position: absolute;
+    right: 0;
+    bottom: 150px;
+  }
+  
+  .submit-button-table1:hover,
+  .submit-button-table2:hover,
+  .submit-button-table3:hover,
+  .submit-button-table4:hover {
+    opacity: 0.8;
+    cursor: pointer;
+  }
+  
+  .flecha1 {
+    position: absolute;
+    height: 140px;
+    left: 147px;
+    top: 53px;
+    transform: rotate(-15deg);
+  }
+  
+  .flecha2 {
+    position: absolute;
+    height: 175px;
+    left: 280px;
+    top: 80px;
+    transform: rotate(124deg);
+  }
+  
+  .flecha3 {
+    position: absolute;
+    height: 140px;
+    left: 447px;
+    top: 200px;
+    transform: rotate(-14deg);
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .button-tableGTI-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    height: 90%;
+  }
+
+  .flecha1 {
+    height: 100px;
+    transform: rotate(124deg);
+  }
+  
+  .flecha2 {
+    height: 100px;
+    transform: rotate(124deg);
+  }
+  
+  .flecha3 {
+    height: 100px;
+    transform: rotate(124deg);
+  }
+}

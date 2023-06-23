@@ -1,0 +1,66 @@
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  background: rgb(249, 246, 237);
+}
+
+.form-content {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  align-items: center;
+}
+
+.label-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  margin: 10px 10px 10px 10px;
+}
+
+.preguntas-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  margin: 5px 5px 5px 5px;
+}
+
+.submit-button-form-container {
+  margin: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 50px;
+
+  background-image: url("../../assets/images/Fondo2.png");
+  width: 100%;
+  height: 450px;
+  background-size: cover;
+}
+
+.submit-button-form {
+  border-radius: 25px;
+  outline: none;
+  color: white;
+  font-size: 14px;
+  font-weight: lighter;
+  width: 318px;
+  height: 107px;
+  background: rgb(249, 247, 237);
+  border: 1px solid #d0d0d0;
+
+  color: #66b2ff;
+  font-size: 25px;
+}
+
+.submit-button-form:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}

@@ -1,0 +1,15 @@
+.title-container1{
+    color: #666666;
+    font-size: 2.8em;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;    
+}
+
+.title-container2{
+    color:white;
+    font-size: 4.5em;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;        
+}

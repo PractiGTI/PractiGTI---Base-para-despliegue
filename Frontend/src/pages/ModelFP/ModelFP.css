@@ -1,0 +1,112 @@
+*{
+  box-sizing: border-box;
+}
+
+.modelfp-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100vh;
+  background: rgb(249, 246, 237);
+  align-items: center;  
+}
+
+.tablefp-container {
+  height: 100%;
+  width: 95%;
+  max-width: 100%;
+  overflow-x: scroll;
+  border:solid 1px #ccc;
+}
+
+.tablefp-container-fp{  
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tablefp-container-fp th,
+.tablefp-container-fp td{
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  text-align: center;
+  font-size: 16px;
+}
+
+.tablefp-container-fp td:first-child{
+  color: white;
+  text-align: left;
+  font-size: 20px;
+  position: sticky;
+  overflow: hidden;
+  z-index: 997;
+  left: 0;
+}
+
+.tablefp-container thead th{
+  position: sticky;
+  overflow: hidden;
+  z-index: 998;
+  top: 0;
+}
+
+.tablefp-container-fp thead th {
+  background-color: #66b2ff;
+  color: #ffffff;
+  height: 116px;
+  font-size: 20px;
+}
+
+.tablefp-container-fp tbody tr {
+  background-color: #add5fa;
+  height: 116px;
+}
+
+.tablefp-container-fp tbody tr:nth-child(2n) {
+  background-color: #a0cdf4;
+  height: 116px;
+}
+
+.tablefp-container-fp tbody tr td:first-child{
+  background-color: #a3c9ed;
+  height: 116px;
+}
+
+.tablefp-container-fp tbody tr:nth-child(2n) td:first-child{
+  background-color: #93bce1;
+  height: 116px;
+}
+
+.submit-button-modelfp-container {
+  margin: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 50px;
+
+  background-image: url("../../assets/images/Fondo2.png");
+  width: 100%;
+  height: 450px;
+  background-size: cover;
+}
+
+.submit-button-modelfp {
+  border-radius: 25px;
+  outline: none;
+  color: white;
+  font-size: 14px;
+  font-weight: lighter;
+  width: 318px;
+  height: 107px;
+  background: rgb(249, 247, 237);
+  border: 1px solid #d0d0d0;
+
+  color: #66b2ff;
+  font-size: 25px;
+}
+
+.submit-button-modelfp:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}

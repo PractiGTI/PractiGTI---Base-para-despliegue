@@ -1,0 +1,42 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  background: rgb(249, 246, 237);
+}
+
+.home-content {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+}
+
+.home-content h1 {
+  color: #666666;
+}
+
+.btn-home {
+  width: 50%;
+  max-width: 456px;
+  height: 97px;
+  border-radius: 25px;
+  border: none;
+  outline: none;
+  background: rgb(102, 178, 255);
+  color: white;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+h2,
+h4 {
+  font-weight: normal;
+}

@@ -1,0 +1,97 @@
+.detail-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  background: rgb(249, 246, 237);
+}
+
+.titulo {
+  background-image: url("../../assets/images/Fondo.png");
+  width: 100%;
+  height: 450px;
+  background-size: cover;
+}
+
+.detail-content1 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 65%;
+  /*background-color: red;*/
+  margin-top: 20px;
+}
+
+h1 {
+  color: #66b2ff;
+}
+
+.detail-content2 {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+  /*background-color: blue;*/
+  margin-top: 100px;
+}
+
+.detail-content3 {
+  display: flex;
+  flex-direction: column;
+  width: 220px;
+  margin-top: 150px;
+}
+
+.submit-button-detail-container {
+  margin: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+
+  background-image: url("../../assets/images/Fondo2.png");
+  width: 100%;
+  height: 450px;
+  background-size: cover;
+}
+
+.submit-button-detail {
+  border-radius: 25px;
+  outline: none;
+  color: white;
+  font-size: 14px;
+  font-weight: lighter;
+  width: 318px;
+  height: 87px;
+  background: rgb(249, 247, 237);
+  border: 1px solid #d0d0d0;
+
+  color: #66b2ff;
+  font-size: 25px;
+}
+
+.submit-button-detail:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.other .rw-combobox {
+  width: 100%;
+}
+
+.other .rw-widget-picker {
+  background-color: #66b2ff;
+}
+
+.other .rw-widget-input {
+  color: #fff;
+}
+
+.other .rw-picker-btn {
+  color: #fff;
+}
+
+.other .rw-combobox-input::placeholder {
+  color: white;
+}

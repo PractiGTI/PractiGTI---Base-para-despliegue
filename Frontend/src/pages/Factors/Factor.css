@@ -1,0 +1,42 @@
+.factors-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100vh;
+  background: rgb(249, 246, 237);
+}
+
+.submit-button-factor-container {
+  margin: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 50px;
+
+  background-image: url("../../assets/images/Fondo2.png");
+  width: 100%;
+  height: 450px;
+  background-size: cover;
+}
+
+.btn-factor {
+  border-radius: 25px;
+  outline: none;
+  color: white;
+  font-size: 14px;
+  font-weight: lighter;
+  width: 318px;
+  height: 107px;
+  background: rgb(249, 247, 237);
+  border: 1px solid #d0d0d0;
+
+  color: #66b2ff;
+  font-size: 25px;
+}
+
+.btn-factor:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
